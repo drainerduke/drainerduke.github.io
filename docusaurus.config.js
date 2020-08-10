@@ -34,6 +34,12 @@ module.exports = {
           activeBasePath: "api",
           label: "API",
           position: "left",
+        },
+        {
+          to: "redoc/",
+          activeBasePath: "redoc",
+          label: "Redoc",
+          position: "left",
         }
       ],
     },
